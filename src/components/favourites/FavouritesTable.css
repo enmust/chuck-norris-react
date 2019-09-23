@@ -1,0 +1,31 @@
+.FavouritesTable .show-me {
+    opacity: 0;
+    transition: opacity 200ms ease;
+}
+
+.FavouritesTable .stacked-icons:hover {
+    cursor: pointer;
+}
+
+.FavouritesTable .stacked-icons:hover .show-me {
+    opacity: 1;
+    transition: opacity 200ms ease;
+}
+
+.FavouritesTable .category-toggle {
+    /*opacity: 0.5;*/
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.FavouritesTable .category-toggle:hover {
+    cursor: pointer;
+}
+
+.FavouritesTable .show-facts {
+    /*display: unset;*/
+}
+
+.FavouritesTable .hide-facts {
+    display: none;
+}

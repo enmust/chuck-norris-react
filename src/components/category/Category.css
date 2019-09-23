@@ -1,0 +1,30 @@
+.Category .category-card {
+    height: 100%;
+    min-height: 40vh;
+    border: unset;
+}
+
+.Category .overlay {
+    position: unset;
+}
+
+.Category .search i:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.Category .category-title {
+    text-shadow: 2px 2px 4px #000;
+    font-size: 1.75rem;
+    letter-spacing: 1.5px;
+}
+
+.Category .search-icon {
+    vertical-align: middle;
+    text-shadow: 2px 2px 4px #28a745;
+}
+
+.Category .loading-icon {
+    vertical-align: middle;
+    text-shadow: 2px 2px 4px #dc3545;
+}

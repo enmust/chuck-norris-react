@@ -1,0 +1,21 @@
+.Fact {
+    text-shadow: 2px 2px 4px #000;
+    animation-iteration-count: 1
+}
+
+.Fact:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.Fact:hover .fact-value {
+    opacity: 0.7;
+}
+
+.Fact:hover i {
+    color: #dc3545;
+}
+
+.Fact .fas {
+    color: #dc3545;
+}

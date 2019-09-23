@@ -1,0 +1,10 @@
+.LandingPageImage {
+    height: 60vh;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.2) 0%, rgba(44,53,49,0.7) 100%), url("../../assets/images/chuckNorrisBackground.jpg");
+    background-size: cover;
+    width: 100%;
+}
+
+.LandingPageImage .text-shadow {
+    text-shadow: 2px 2px 4px #000;
+}

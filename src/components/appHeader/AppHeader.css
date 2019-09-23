@@ -1,0 +1,52 @@
+.AppHeader {
+    box-shadow: 0 -4px 10px #000;
+}
+
+.AppHeader.show-bg {
+    background-color: #fff;
+    -webkit-transition: background-color 500ms ease;
+    transition: background-color 500ms ease;
+}
+
+.AppHeader.show-bg .nav-link {
+    color: #000 !important;
+    -webkit-transition: color 500ms ease;
+    transition: color 500ms ease;
+}
+
+.AppHeader.hide-bg {
+    background-color: unset;
+    -webkit-transition: background-color 500ms ease;
+    transition: background-color 500ms ease;
+}
+
+.AppHeader.hide-bg .nav-link {
+    color: #fff !important;
+    -webkit-transition: color 500ms ease;
+    transition: color 500ms ease;
+
+}
+
+.AppHeader .navbar-brand {
+    font-weight: 600;
+}
+
+.AppHeader .nav-link {
+    font-weight: 600;
+}
+
+.AppHeader .nav-link:hover {
+    opacity: 0.7;
+}
+
+.AppHeader.show-bg .selected-nav-link {
+    border-bottom: 2px solid #000;
+    -webkit-transition: border-color 500ms ease;
+    transition: border-color 500ms ease;
+}
+
+.AppHeader.hide-bg .selected-nav-link {
+    border-bottom: 2px solid #fff;
+    -webkit-transition: border-color 500ms ease;
+    transition: border-color 500ms ease;
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:700&display=swap');
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+/*
+
+#2c3531
+#116466
+#d9b08c
+#ffcb9a
+#d1e8e2
+
+*/
