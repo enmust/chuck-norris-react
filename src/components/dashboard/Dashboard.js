@@ -18,10 +18,10 @@ class Dashboard extends React.Component {
           <div className="row no-gutters">
 
             <Switch>
-              <Route path={`${process.env.PUBLIC_URL}/`} exact component={CategoryContainer}/>
-              <Route path={`${process.env.PUBLIC_URL}/favourites/`} component={Favourites}/>
-              <Route path={`${process.env.PUBLIC_URL}/about/`} component={About}/>
-              <Route render={() => <Redirect to={`${process.env.PUBLIC_URL}/`} />} />
+              <Route path="/" exact component={CategoryContainer}/>
+              <Route path="/favourites/" component={Favourites}/>
+              <Route path="/about/" component={About}/>
+              <Route render={() => <Redirect to="/" />} />
             </Switch>
 
           </div>
