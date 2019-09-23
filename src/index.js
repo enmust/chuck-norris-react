@@ -58,7 +58,7 @@ store.subscribe(() => {
 
 ReactDOM.render(
   <Provider store={store}>
-    <Router>
+    <Router basename={'/chuck-norris-react'}>
       <App/>
     </Router>
   </Provider>,

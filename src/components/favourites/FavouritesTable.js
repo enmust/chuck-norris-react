@@ -168,7 +168,7 @@ class FavouritesTable extends React.Component {
             <i className="far fa-star fa-spin"/>
           </span>
             , go to
-            <Link to="/"> Jokes</Link> to add some.
+            <Link to={`${process.env.PUBLIC_URL}/`}> Jokes</Link> to add some.
           </td>
         </tr>
       );

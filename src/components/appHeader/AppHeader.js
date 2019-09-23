@@ -49,11 +49,11 @@ class AppHeader extends React.Component {
         <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={this.navToggleClicked.bind(this)} />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-            <NavLink to="/" exact activeClassName="selected-nav-link"
+            <NavLink to={`${process.env.PUBLIC_URL}/`} exact activeClassName="selected-nav-link"
                      className="nav-link" onClick={this.closeNav.bind(this)}>Jokes</NavLink>
-            <NavLink to="/favourites" exact activeClassName="selected-nav-link"
+            <NavLink to={`${process.env.PUBLIC_URL}/favourites`} exact activeClassName="selected-nav-link"
                      className="nav-link" onClick={this.closeNav.bind(this)}>Favourites</NavLink>
-            <NavLink to="/about" exact activeClassName="selected-nav-link"
+            <NavLink to={`${process.env.PUBLIC_URL}/about`} exact activeClassName="selected-nav-link"
                      className="nav-link" onClick={this.closeNav.bind(this)}>About</NavLink>
           </Nav>
         </Navbar.Collapse>
